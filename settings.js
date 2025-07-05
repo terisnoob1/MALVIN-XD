@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~d38nQKxA#-aW9nWM8NeQf7jpUOmbn8t07t0tmczGVfCn4cIJ1Sdg",
+SESSION_ID: process.env.SESSION_ID || "malvin~FnN2iKxI#4j8bo4Acexo-EctYRWt2Ftr1N0pgj7WaxmHbJHmJtAs",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -43,7 +43,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-      MENTION_REPLY: process.env.MENTION_REPLY || "false",
+      MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 
      MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/qumhu4.jpg",
@@ -88,7 +88,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 
-        AUTO_STICKER: process.env.AUTO_STICKER || "false",
+        AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
